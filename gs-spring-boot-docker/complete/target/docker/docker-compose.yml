@@ -1,0 +1,4 @@
+ubuntu:
+  build: .
+  dockerfile: Dockerfile-db
+  
