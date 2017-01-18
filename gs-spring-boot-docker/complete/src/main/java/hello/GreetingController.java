@@ -42,7 +42,7 @@ public class GreetingController {
 	    for (WatchList list : repository.findAll()) {
 			//System.out.println(customer);
 			//template = template + customer.firstName;
-			contents = contents + "<tr><td><a href=# target='_blank' onclick=window.open('http://52.90.106.54:8080/listDetails.html','mywin','width=500,height=200'); >" + list.listName +"</a></td>"
+			contents = contents + "<tr><td><a href=# target='_blank' onclick=window.open('http://54.172.217.59:8080/listDetails.html','mywin','width=500,height=200'); >" + list.listName +"</a></td>"
 			+"<td>Type</td><td>"+list.listType+"</td><td>"+list.listOwner
 			+"</td><td>01-13-2017</td><td>_</td></tr>";
 		}
@@ -71,7 +71,7 @@ public class GreetingController {
                            // String.format(template, name), obj);
         					"", obj, dictionary);*/
         return "<table border='1' width='100%'>"+contents+"</table><table>"+
-        "<tr><td><a href=# target='_blank' onclick=window.open('http://52.90.106.54:8080/createpage','mywin','width=500,height=200'); >Create List</a></td></tr>"+
+        "<tr><td><a href=# target='_blank' onclick=window.open('http://54.172.217.59:8080/createpage','mywin','width=500,height=200'); >Create List</a></td></tr>"+
         "<tr><td><a href='/deleteall'>Delete All</a></td></tr></table>";
     }
 
