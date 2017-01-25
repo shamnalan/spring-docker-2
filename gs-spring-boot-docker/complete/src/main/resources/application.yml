@@ -7,7 +7,7 @@ spring:
     name: testLatticeApp
   data:
     mongodb:
-        host: 52.90.15.220
+        host: 54.80.137.142
         #host: 127.0.0.1
         port: 27017
 
